@@ -1,0 +1,23 @@
+[user]
+  email = viktor.prutyanov@
+  name = Viktor Prutyanov
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+[sendemail]
+  smtpencryption = tls 
+  smtpserver = smtp.office365.com
+  smtpuser = viktor.prutyanov@
+  smtpserverport = 587 
+[core]
+  editor = vim
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+  interactive = auto
+  ui = true
+  pager = true
