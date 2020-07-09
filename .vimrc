@@ -11,4 +11,5 @@ set smartindent
 set autoindent
 set completeopt=menuone
 filetype plugin indent on
+syntax on
 set exrc
